@@ -1,0 +1,99 @@
+@charset="utf-8";
+@font-face {
+	font-family: Bunny;
+	src: url('BunnysfontRegular.ttf') format('truetype');
+}
+/*
+	Name: Amy
+	CSS Styles file
+	
+	colors:
+	blue: 79ADDC
+	orange: FFC09F
+	yellow: FFEE93
+	pale yellow: FCF5C7
+	green: ADF7B6
+*/
+
+/* html and body styles */
+html {
+	background-color: #ADF7B6;
+}
+
+body {
+	font-family: Bunny, 'Comic Sans MS', serif;
+}
+
+/* header */
+
+header h1 {
+	font-family: impact, serif;
+	font-weight: normal;
+	font-size: 50px;
+	color: #79ADDC;
+	background-color: #FCF5C7;
+	text-shadow: 2px 2px 3px #136AB7;
+}
+
+/* nav */
+
+nav.horizontal a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #79ADDC;
+	background-color: #FCF5C7;
+}
+
+nav.horizontal a:hover {
+	background-color: #FFEE93;
+}
+
+/* article */
+
+article#blog {
+	font-family: arial;
+}
+
+article#aboutme h2 {
+	background-color: #79ADDC;
+}
+
+article#aboutme h4 {
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+article#aboutme {
+	font-size: 20px;
+}
+
+/* aside */
+
+#specialinterests h3, #favorites h3 {
+	display: block;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 0;
+	background-color: #FFC09F;
+	
+	border-bottom-width: 3px;
+	border-bottom-style: dashed;
+}
+
+aside ul {
+	padding-left: 0;
+	margin-top: 0;
+}
+
+#specialinterests li, #favorites li {
+	font-size: 25px;
+	color: #79ADDC;
+	background-color: #FFC09F;
+	text-align: center;
+	list-style-type: none;
+}
+
+#specialinterests a, #favorites a {
+	text-decoration: none;
+	color: #79ADDC;
+}

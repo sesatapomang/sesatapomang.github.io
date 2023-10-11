@@ -1,0 +1,98 @@
+@charset="utf-8";
+/*
+	Name: Amy
+	CSS Layout File
+*/
+
+/* BODY LAYOUT STYLES */
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+body > header {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+body > header h1 {
+	margin-bottom: 5px;
+}
+
+/* NAV LAYOUT STYLES */
+
+nav.horizontal {
+	left: 0px;
+	width: 100%;
+}
+
+nav.horizontal ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav.horizontal li {
+	height: 25px;
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+nav.horizontal a {
+	display: block;
+	text-align: center;
+}
+
+/* ARTICLE LAYOUT STYLES */
+
+article#aboutme {
+	clear: left;
+	padding-top: 10px;
+}
+
+article#aboutme h2, article#aboutme h3 {
+	text-align: center;
+}
+
+article#aboutme img#pride {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 60px;
+}
+
+article#aboutme img#lorre {
+	display: block;
+	float: right;
+	padding-right: 5px;
+	width: 30%;
+}
+
+/* BLOG */
+
+article#blog div {
+	display: block;
+	border-bottom-style: double;
+	border-bottom-color: gray;
+	border-bottom-width: 4px;
+}
+
+
+/* rockets */
+
+img#rocket {
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: double;
+	border-width: 5px;
+	border-color: #79ADDC;
+}
+
+/* ASIDE */
+

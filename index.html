@@ -9,31 +9,57 @@
 			Main Page
 		-->
 		<meta charset="utf-8">
+		<link href="layout.css" rel="stylesheet" />
+		<link href="styles.css" rel="stylesheet" />
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+		</style> 
 	</head>
 	
 	<body>
-		<h1>AMY's COOL WEBSITE</h1>
-		<h2>WAIT!! check out my <a href="blog.html">BLOG!!!</a></h2>
-		<p>I will put cool stuff here like my social media and like art of my sona :3</p>
-		<h2>ABOUT ME:</h2>
-		<h4>Pronouns: She/They</h4>
-		<p>I am a 18 year old college student studying Computer and Web Programming.</p>
-		<p>I have Autism Spectrum Disorder and I am a furry. My sona is a bunny named Lorre!</p>
-		<h4>I am agender!</h4>
-		<img src="agender.png" alt="Agender Pride Flag"/>
-		<h3>Special Interests:</h3>
-		<ul>
-			<li><strong><a href="spaceflight.html">Spaceflight!</a></strong></li>
-			<li>Aviation!</li>
-			<li>Five Nights at Freddy's</li>
-		</ul>
-		<h3>Favorite Games and Movies and Shows:</h3>
-		<ul>
-			<li><a href="https://www.kerbalspaceprogram.com/">Kerbal Space Program (game)</a></li>
-			<li><a href="https://www.imdb.com/title/tt0432283/?_encoding=UTF8">Fantastic Mr Fox (movie)</a></li>
-			<li><a href="https://store.steampowered.com/app/440/Team_Fortress_2/">Team Fortress 2 (game)</a></li>
-			<li><a href="https://www.minecraft.net/">Minecraft (game)</a></li>
-		</ul>
+		<header>
+			<h1>AMY's COOL WEBSITE</h1>
+			<nav class="horizontal">
+				<ul>
+					<li><a href="index.html">Main Page</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="spaceflight.html">Spaceflight?</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<article id="aboutme">
+			<h2>ABOUT ME:</h2>
+			<h3>Pronouns: She/They</h3>
+			<p>I am a 18 year old college student who wants to become a rocket engineer!</p>
+			<img src="lorrebyraystarkitty.png" alt="My Fursona!" id="lorre" />
+			<p>To the right is my sona, her name is Lorre!<br>The art was made by <strong>RayStarKitty</strong></p>
+			<h4>I am agender!</h3>
+			<img src="agender.png" alt="Agender Pride Flag" id="pride" />
+		</article>
+		
+		<aside>
+			<block>
+				<div id="specialinterests">
+					<h3>Special Interests</h3>
+					<ul>
+						<li><strong>Spaceflight!</strong></li>
+						<li>Aviation!</li>
+						<li>Five Nights at Freddy's</li>
+					</ul>
+				</div>
+				<div id="favorites">
+					<h3>Favorite Media</h3>
+					<ul>
+						<li><a href="https://www.kerbalspaceprogram.com/">Kerbal Space Program</a></li>
+						<li><a href="https://www.imdb.com/title/tt0432283/?_encoding=UTF8">Fantastic Mr Fox</a></li>
+						<li><a href="https://store.steampowered.com/app/440/Team_Fortress_2/">Team Fortress 2</a></li>
+						<li><a href="https://www.minecraft.net/">Minecraft</a></li>
+					</ul>
+				</div>
+			</block>
+		</aside>
+		<!--
 		<h1>MY FURSONA</h1>
 		<h2><a href="gallery.html">Full Gallery</a></h2>
 		<p>From left to right, top to bottom:</p>
@@ -46,5 +72,9 @@
 		<img src="lorre1.png" alt=""/>
 		<h3>REF SHEET (by <a href="https://nepkatz.tumblr.com">Nepkatz</a>)</h3>
 		<img src="lorre2.png" alt=""/>
+		-->
+		<footer>
+			Font by <a href="https://x.com/BiteBunnys">@BiteBunnys</a>
+		</footer>
 	</body>
 </html>
