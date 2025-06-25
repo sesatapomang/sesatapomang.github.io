@@ -17,7 +17,7 @@
 
 /* html and body styles */
 html {
-	background-color: #ADF7B6;
+	background-color: #6BEAC0;
 }
 
 body {
@@ -30,22 +30,25 @@ header h1 {
 	font-family: impact, serif;
 	font-weight: normal;
 	font-size: 50px;
-	color: #79ADDC;
-	background-color: #FCF5C7;
+	color: #FFFFFF;
+	background-color: #53B594;
 	text-shadow: 2px 2px 3px #136AB7;
 }
 
 /* nav */
 
 nav.horizontal a {
+	font-family: impact, serif;
+	font-weight: normal;
 	font-size: 20px;
 	text-decoration: none;
-	color: #79ADDC;
-	background-color: #FCF5C7;
+	color: #FFFFFF;
+	background-color: #53B594;
+	text-shadow: 2px 2px 3px #136AB7;
 }
 
 nav.horizontal a:hover {
-	background-color: #FFEE93;
+	background-color: #4F917A;
 }
 
 /* article */
@@ -55,7 +58,9 @@ article#blog {
 }
 
 article#aboutme h2 {
-	background-color: #79ADDC;
+	color: #FFFFFF;
+	background-color: #53B594;
+	text-shadow: 2px 2px 3px #136AB7;
 }
 
 article#aboutme h4 {

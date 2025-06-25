@@ -48,10 +48,6 @@ nav.horizontal a {
 
 /* ARTICLE LAYOUT STYLES */
 
-article#aboutme {
-	clear: left;
-	padding-top: 10px;
-}
 
 article#aboutme h2, article#aboutme h3 {
 	text-align: center;
@@ -67,9 +63,11 @@ article#aboutme img#pride {
 
 article#aboutme img#lorre {
 	display: block;
-	float: right;
+	float: center;
 	padding-right: 5px;
 	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* BLOG */
@@ -96,3 +94,25 @@ img#rocket {
 
 /* ASIDE */
 
+@media only screen and (max-width: 499px) {
+	article#aboutme {
+		clear: left;
+		padding-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media only screen and (min-width: 500px) {
+	article#aboutme {
+		clear: left;
+		padding-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		flex-direction: column;
+		width: 70%;
+	}
+}
